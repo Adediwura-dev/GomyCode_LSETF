@@ -1,19 +1,47 @@
-p{
-    color: green;
-    font-size: 45px;
+p {
+  color: green;
+  font-size: 45px;
 }
 
-.description{
-    color: orangered;
+.description {
+  color: orangered;
 }
 
-button{
-    padding: 20px;
-    font-size: 15px;
-    background-color: rgb(65, 65, 194);
-    color: darkolivegreen;
+button {
+  padding: 20px;
+  font-size: 15px;
+  background-color: rgb(65, 65, 194);
+  color: darkolivegreen;
 }
-button:hover{
-    cursor: pointer;
-    background-color: rgb(78, 78, 245);
+button:hover {
+  cursor: pointer;
+  background-color: rgb(78, 78, 245);
+}
+
+h1,
+h2 {
+  color: pink;
+}
+
+#website {
+  font-size: 15px;
+}
+
+.container > p {
+  color: orangered;
+}
+
+input[type="text"] {
+  border: 2px solid goldenrod;
+  margin-bottom: 20px;
+}
+
+input[type="password"] {
+  border: 2px solid brown;
+  margin-bottom: 20px;
+}
+
+input[type="email"] {
+  border: 2px solid orangered;
+  margin-bottom: 20px;
 }
