@@ -1,0 +1,19 @@
+p{
+    color: green;
+    font-size: 45px;
+}
+
+.description{
+    color: orangered;
+}
+
+button{
+    padding: 20px;
+    font-size: 15px;
+    background-color: rgb(65, 65, 194);
+    color: darkolivegreen;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(78, 78, 245);
+}
