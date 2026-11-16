@@ -1,0 +1,17 @@
+/* CSS Positioning  */
+/* Controls where an element sits on the page and how it behaves when the page scrolls or resizes. There are five values for the position property: static, relativr, absolute, fixed, sticky  */
+
+.box{
+    background : #4a90d9;
+    color: white;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 50px;
+}
+
+.relative-box{
+    position: relative;
+    top: 20px;
+    left: 90px;
+    background: #e67e22;
+}

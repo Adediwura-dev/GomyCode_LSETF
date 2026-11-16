@@ -1,0 +1,36 @@
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: chocolate;
+  justify-content: center;
+  padding: 15px;
+  gap: 20px;
+  width: 800px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100px;
+  background-color: bisque;
+  /* text-align: center; */
+}
+
+.item-a,
+.item-b,
+.item-c,
+.item-d {
+  flex-grow: 1;
+  /* flex-basis: 0; */
+  /* flex-shrink: 1; */
+}
+
+/* .item-b{
+    flex-grow: 1;
+}  */

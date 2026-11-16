@@ -5,12 +5,13 @@ a:link {
 a:visited {
   color: green;
 }
+
 a:active {
   color: aqua;
 }
 
 body {
-    /* background-color: red; */
+  /* background-color: red; */
   background-color: rgb(207, 207, 20);
 }
 
@@ -22,6 +23,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
 }
+
 .second-prg {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
@@ -30,6 +32,7 @@ body {
   margin-top: 50px;
   /* margin-top: 0; */
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -40,12 +43,21 @@ body {
   /* border-width: thin; */
 }
 
-.box{
-    width: 200px;
-    height: 200px;
-    background-color: red;
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
 }
 
-p{
-    display: inline ;
+p {
+  display: inline-block;
 }
+
+p {
+  color: red;
+}
+
+.btn {
+  background: #58e3e3;
+  color: red;
+}/*# sourceMappingURL=practice.css.map */
